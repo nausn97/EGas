@@ -1,0 +1,95 @@
+.mainProfileBody{
+    background: white;
+     width:60%;
+    margin-left: 20%;
+    z-index: 0;
+    padding: 0px;    
+    
+}
+.updateDetail{
+    width:50%;
+    padding:2%;
+    border:1px solid #E5E5E5;
+    //margin-left: 5px;
+    //margin-right: 5px;
+    
+    //margin-top: 40px;
+    //position: relative;
+} .Basic{
+    //margin-left: 510px;
+    margin-top: 20px;
+    //float:right;
+    
+}
+.userimage{
+    float:right;
+    width:348px;
+    padding:25px;
+    border:1px solid #E5E5E5;
+    margin-left: 405px;
+    margin-right: 5px;
+    margin-top: -320px;
+    //position: absolute;
+}
+.userimage img{
+    width: 150px;
+    height: 180px;
+    margin-left: 25px;
+}
+.Id{
+    
+    float:right;
+    margin-top: -988px;
+    //alignment-adjust: baseline;
+}
+.AddressProof{
+    float:right;
+   margin-top: -660px;
+}
+.updateDetail header{
+    font-size: 14px;
+    color:black;
+    font-family: tahoma,sans-serif;
+    margin-bottom: 15px;
+    background: rgb(215, 222, 225); 
+    width: 100%;
+    margin-top: -4px;
+    height: 20px;
+    padding: 5px;
+        
+}
+.updateDetail label{
+    display:block;
+    width:97%;
+    margin-bottom: 15px;
+    font-family: tahoma,sans-serif;
+    font-size: 12px;
+    color:#89919c;
+    font-weight: normal;
+    border-bottom: 1px solid #E5E5E5;
+    display: block;
+    
+    
+}
+.updateDetail label span{
+    margin-left: 160px;
+    width:200px;
+    font-size: 12px;
+    color:black;
+    float:left;
+    margin-top: -20px;
+    text-transform: uppercase;
+    
+}
+.address{
+   // margin-left: 510px;
+    
+    //float:right;
+    
+}
+.Bank{
+   // margin-left: 510px;
+   // margin-top: -324px;
+   // float:right;
+}
+

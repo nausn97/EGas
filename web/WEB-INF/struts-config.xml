@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+    <form-beans>
+        <form-bean name="BookingStatusBean" type="Bean_and_Action.BookingStatusBean"/>
+        <form-bean name="NewPasswordRecoverBean" type="Bean_and_Action.NewPasswordRecoverBean"/>
+        <form-bean name="RecoverPasswordBean" type="Bean_and_Action.RecoverPasswordBean"/>
+        <form-bean name="ChangePasswordBean" type="Bean_and_Action.ChangePasswordBean"/>
+        <form-bean name="ResetPasswordBean" type="Bean_and_Action.ResetPasswordBean"/>
+        <form-bean name="GetConsumerBean" type="Bean_and_Action.GetConsumerBean"/>
+        <form-bean name="GetDistributorBean" type="Bean_and_Action.GetDistributorBean"/>
+        <form-bean name="GetCityBean" type="Bean_and_Action.GetCityBean"/>
+        <form-bean name="UpdateIdInfoBean" type="Bean_and_Action.UpdateIdInfoBean"/>
+        <form-bean name="UpdateBankInfoBean" type="Bean_and_Action.UpdateBankInfoBean"/>
+        
+        <form-bean name="UpdateKYCBean" type="Bean_and_Action.UpdateKYCBean"/>
+        <form-bean name="MyMessageBean" type="Bean_and_Action.MyMessageBean"/>
+        <form-bean name="FinalMyAppointmentBean" type="Bean_and_Action.FinalMyAppointmentBean"/>
+        <form-bean name="AppointmentBean" type="Bean_and_Action.AppointmentBean"/>
+        <form-bean name="CashMemoBean" type="Bean_and_Action.CashMemoBean"/>
+        <form-bean name="ComplainBean" type="Bean_and_Action.ComplainBean"/>
+        <form-bean name="SMSBEAN" type="Bean_and_Action.SMSBEAN"/>        
+        <form-bean name="NewConnectionBean" type="Bean_and_Action.NewConnectionBean"/>
+        <form-bean name="ChangeDistBean" type="Bean_and_Action.ChangeDistBean"/>
+        <form-bean name="AadharBean" type="Bean_and_Action.AadharBean"/>
+        <form-bean name="ChangepasswordBean" type="Bean_and_Action.ChangepasswordBean"/>
+        <form-bean name="KYCBEAN" type="Bean_and_Action.KYCBEAN"/>
+        <form-bean name="CancelOrderBean" type="Bean_and_Action.CancelOrderBean"/>
+        
+        <form-bean name="BookingOrderBean" type="Bean_and_Action.BookingOrderBean"/>
+        <form-bean name="ConfirmButtonBean" type="Bean_and_Action.ConfirmButtonBean"/>
+        <form-bean name="UpdateBookingBean" type="Bean_and_Action.UpdateBookingBean"/>
+        <form-bean name="RefillBean" type="Bean_and_Action.RefillBean"/>
+        <form-bean name="UpdateAddressBean" type="Bean_and_Action.UpdateAddressBean"/>       
+        <form-bean name="LoginFormBean1" type="Bean_and_Action.LoginFormBean1"/>        
+        <form-bean name="UpdateFormBean" type="Bean_and_Action.UpdateFormBean"/>
+        <form-bean name="UpdateBasicInfoBean" type="Bean_and_Action.UpdateBasicInfoBean"/>
+        <form-bean name="SignUpFormBean" type="Bean_and_Action.SignUpFormBean"/>
+        <form-bean name="LoginFormBean" type="Bean_and_Action.LoginFormBean"/>
+    
+    </form-beans>
+    
+    <global-exceptions>
+    
+    </global-exceptions>
+
+    <global-forwards>
+        <forward name="welcome"  path="/Welcome.do"/>
+    </global-forwards>
+
+    <action-mappings>
+        <action input="/LoginForm.jsp" name="LoginFormBean" path="/login" scope="session" type="Bean_and_Action.LoginFormAction">
+            <forward name="Auth_Succ" path="Landing-Page"/>
+            <forward name="Auth_Fail" path="/LoginForm.jsp"/>
+            <forward name="Inactive-User" path="/KYC.jsp"/>
+        </action> 
+        <action input="/SignUpForm.jsp" name="SignUpFormBean" path="/signup" scope="session" type="Bean_and_Action.SignUpFormAction">
+            <forward name="Succ_verification" path="/LoginForm.jsp"/>
+            <forward name="Err_verification" path="/SignUpForm.jsp"/>
+        </action>
+       <!-- <action input="/A.jsp" name="UpdateFormBean" path="/UpdateBasicInfo" scope="session" type="Bean_and_Action.UpdateFormAction">
+            <forward name="updateBasicInfo" path="/A.jsp"/>
+        </action> -->
+        <action input="/A.jsp" name="UpdateBasicInfoBean" path="/UpdateBasicInfo" scope="session" type="Bean_and_Action.UpdateBasicInfoAction">
+             <forward name="updateBasicInfo" path="/Profile.jsp"/>             
+        </action>
+        
+        <action input="/Profile.jsp" name="UpdateAddressBean" path="/UpdateAddress" scope="session" type="Bean_and_Action.UpdateAddressAction">
+            <forward name="updateAddress" path="/Profile.jsp"/> 
+        </action>
+        <action input="/Refill_Booking.jsp" name="RefillBean" path="/Refill" scope="session" type="Bean_and_Action.RefillAction">
+        </action>
+            
+        <action input="/Refill_Booking.jsp" name="UpdateBookingBean" path="/UpdateBookingInfo" scope="session" type="Bean_and_Action.UpdateBookingAction">
+         <forward name="UpdateBooking" path="Template2"/> 
+        </action>
+        <action input="/Refill_Booking.jsp" name="ConfirmButtonBean" path="/ConfirmButton" scope="session" type="Bean_and_Action.ConfirmButtonAction">
+        </action>
+            
+        <action input="/Refill_Booking.jsp" name="BookingOrderBean" path="/order" scope="session" type="Bean_and_Action.BookingOrderAction">        
+            <!--<forward name="Booking-Confirmed" path="Template2"/>-->
+        </action>
+        
+        <action input="/Aadhar.jsp" name="AadharBean" path="/aadhar" scope="session" type="Bean_and_Action.AadharAction">
+        </action>
+        
+        
+        
+        
+        <action input="/ChangeDistributor.jsp" name="ChangeDistBean" path="/changedist" scope="session" type="Bean_and_Action.ChangeDistAction">
+        </action>
+        <action input="/NewConnection.jsp" name="NewConnectionBean" path="/newConnection" scope="session" type="Bean_and_Action.NewConnectionAction">
+            <forward name="schedule" path="/temp.jsp"/> 
+        </action>
+        
+        <action input="/Complain.jsp" name="ComplainBean" path="/complain" scope="session" type="Bean_and_Action.ComplainAction">
+        </action>
+        <action input="/Profile.jsp" name="UpdateBankInfoBean" path="/UpdateBankDetail" scope="session" type="Bean_and_Action.UpdateBankInfoAction">
+            <forward name="bankinfo" path="/Profile.jsp"/> 
+        </action>
+        <action input="/BookingStatus.jsp" name="BookingStatusBean" path="/waitList" scope="session" type="Bean_and_Action.BookingStatusAction"/>
+        <action input="/NewPasswordRecover.jsp" name="NewPasswordRecoverBean" path="/newpasswordrecover" scope="session" type="Bean_and_Action.NewPasswordRecoverAction"/>
+        <action input="/ResetPassword.jsp" name="RecoverPasswordBean" path="/recover" scope="session" type="Bean_and_Action.RecoverPasswordAction"/>
+        <action input="/ChangeMyPasssword.jsp" name="ChangePasswordBean" path="/myPassword" scope="session" type="Bean_and_Action.ChangePasswordAction"/>
+        <action input="/ResetPassword.jsp" name="ResetPasswordBean" path="/search" scope="session" type="Bean_and_Action.ResetPasswordAction"/>
+        <action input="/TPortal.jsp" name="GetConsumerBean" path="/consumers" scope="session" type="Bean_and_Action.GetConsumerAction"/>
+        <action input="/TPortal.jsp" name="GetDistributorBean" path="/distributor" scope="session" type="Bean_and_Action.GetDistributorAction"/>
+        <action input="/TPortal.jsp" name="GetCityBean" path="/city" scope="session" type="Bean_and_Action.GetCityAction"/>
+        <action input="/Profile.jsp" name="UpdateIdInfoBean" path="/UpdateIdInfo" scope="session" type="Bean_and_Action.UpdateIdInfoAction"/>
+        
+        <action input="/KYC.jsp" name="UpdateKYCBean" path="/updatekyc" scope="session" type="Bean_and_Action.UpdateKYCAction"/>
+        <action input="/Message.jsp" name="MyMessageBean" path="/mynotification" scope="session" type="Bean_and_Action.MyMessageAction"/>
+        <action input="/MySchedule.jsp" name="FinalMyAppointmentBean" path="/finalMyAppoint" scope="session" type="Bean_and_Action.FinalMyAppointmentAction"/>
+        <action input="/MySchedule.jsp" name="AppointmentBean" path="/appointment" scope="session" type="Bean_and_Action.AppointmentAction"/>
+        <action input="/Booking-History.jsp" name="CashMemoBean" path="/cashmemo" scope="session" type="Bean_and_Action.CashMemoAction"/>
+        <action input="/Booking-History.jsp" name="SMSBEAN" path="/sendsms" scope="session" type="Bean_and_Action.SMSACTION"/>
+            
+        
+        <action input="/KYC.jsp" name="KYCBEAN" path="/updateKYC" scope="session" type="Bean_and_Action.KYCACTION"/>
+        <action input="/CancelOrder.jsp" name="CancelOrderBean" path="/cancel" scope="session" type="Bean_and_Action.CancelOrderAction"/>
+        <action path="/Book-Now" forward="Template2"/>        
+        <action path="/Transactions" forward="Template3"/>        
+        <action path="/Contact" forward="Template4"/>
+        <action path="/Products" forward="Template5"/>
+        <action path="/Aadhar" forward="Template6"/>
+        <action path="/Notification" forward="Template7"/>
+        <action path="/mHome" forward="Landing-Page"/>
+        <action path="/logout" forward="/index.jsp"/>
+        <action path="/password" forward="Template8"/>
+        <action path="/Cancel-Order" forward="Template9"/>
+        <action path="/Distributor" forward="Template10"/>
+        <action path="/New-Connection" forward="/NewConnection.jsp"/>
+        <action path="/other" forward="Template11"/>
+        <action path="/message1" forward="Template12"/>
+        <action path="/complain1" forward="Template13"/>
+        <action path="/waitList1" forward="Template14"/>
+        
+        
+    </action-mappings>
+    
+    <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
+
+    <message-resources parameter="com/myapp/struts/ApplicationResource"/>        
+    
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />      
+        <set-property property="moduleAware" value="true" />
+    </plug-in>
+    
+    <!-- ========================= Validator plugin ================================= -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property
+            property="pathnames"
+            value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+    </plug-in>
+  
+</struts-config>

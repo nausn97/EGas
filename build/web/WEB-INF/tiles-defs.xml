@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!--
+     This is a blank Tiles definition file with a commented example.
+-->
+
+<tiles-definitions>    
+    <definition name="Landing-Page" path="/Template.jsp">
+        <put name="HEADER"  value="/mainHeader.jsp" />
+        <put name="LEFT-PANEL" value="/LeftPanel.jsp" />
+        <put name="LOGGED-IN-USER"   value="/Logged-In-User.jsp" />
+        <put name="SERVICES" value="/Services.jsp" />        
+        
+    </definition>
+    <definition name="Template2" extends="Landing-Page">        
+        <put name="SERVICES" value="/Refill_Booking.jsp" />
+    </definition>
+    <definition name="Template3" extends="Landing-Page">        
+        <put name="SERVICES" value="/Booking-History.jsp" />
+    </definition>
+    <definition name="Template4" extends="Landing-Page">        
+        <put name="SERVICES" value="/Contact.jsp" />
+    </definition>
+     <definition name="Template5" extends="Landing-Page">        
+        <put name="SERVICES" value="/Products.jsp" />
+    </definition>
+    <definition name="Template6" extends="Landing-Page">        
+        <put name="SERVICES" value="/Aadhar.jsp" />
+    </definition>
+    <definition name="Template7" extends="Landing-Page">        
+        <put name="LEFT-PANEL" value="/Message.jsp" />
+    </definition>
+    <definition name="Template8" extends="Landing-Page">        
+        <put name="SERVICES" value="/ChangeMyPasssword.jsp" />
+    </definition>
+    <definition name="Template9" extends="Landing-Page">        
+        <put name="SERVICES" value="/CancelOrder.jsp" />
+    </definition>
+    <definition name="Template10" extends="Landing-Page">        
+        <put name="SERVICES" value="/ChangeDistributor.jsp" />
+    </definition>
+    <definition name="Template11" extends="Landing-Page">        
+        <put name="SERVICES" value="/OthersRefill.jsp" />
+    </definition>
+    <definition name="Template12" extends="Landing-Page">        
+        <put name="SERVICES" value="/Message.jsp" />
+    </definition>
+    
+     <definition name="Template13" extends="Landing-Page">        
+        <put name="SERVICES" value="/Complain.jsp" />
+    </definition>
+    <definition name="Template14" extends="Landing-Page">        
+        <put name="SERVICES" value="/BookingStatus.jsp" />
+    </definition>
+    
+    
+<!-- sample tiles definitions
+    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
+        <putList name="list" >
+            <add value=".menu.links" />
+            <add value=".menu.taglib.references" />
+            <add value=".menu.printer.friendly" />
+            <add value=".menu.old.documents" />
+      </putList>
+    </definition>
+
+    <definition name="aPage" extends=".mainLayout">
+        <put name="title"  value="Another Title" />
+        <put name="body"   value=".aPage.body" />
+    </definition>
+
+    end samples -->
+
+    <definition name="${YOUR_DEFINITION_HERE}">
+    </definition>
+
+</tiles-definitions>

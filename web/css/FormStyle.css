@@ -1,0 +1,217 @@
+.mainHeaderClass{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: rgb(59, 89, 152);    
+    //background-color: #fbb14e; 
+    margin-top: 0px;
+    z-index: 99;
+    margin-bottom: 20px;
+    
+    
+}
+
+.mainHeaderClass ul{
+    list-style: none;
+    margin-left: 34%;
+    margin-top: 0px;
+}
+
+.mainHeaderClass li{
+color: #FFFFFF;
+//display: block;
+float: left;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 10px;
+font-weight: bold;
+height: 26px;
+letter-spacing: 1px;
+margin: 1% 2% 0 2%;
+padding: 6px 0 3px 1%;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color:#FFF;
+
+}
+.mainHeaderClass li a{
+    text-decoration: none;
+    color:#FFF;    
+    text-align: center;
+}
+
+.login_box {
+background: none repeat scroll 0 0 #FFFFFF;
+border-radius: 5px;
+box-shadow: 1px 1px 5px #CCCCCC;
+float: left;
+padding: 25px 25px 10px;
+width: 90%;
+}
+.subBtn input{
+    float:right;
+    width: 50px; 
+    margin-top: 1%;
+    margin-right: 35px;
+    text-align: center;
+    
+}
+.subBtn label a{
+    float:left;
+    color:blue;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.register_box {
+   // background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #CCCCCC;
+    float: left;
+    padding: 25px 25px 10px;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.textarea {
+    background-color: #F4F5F6;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    color: #999999;
+    float: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 97%;
+    font-family: tahoma;
+    //text-transform: uppercase;
+    
+}
+
+.forget_password {
+    color: #999999;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 97%;
+}
+
+.forget_password a{
+    color: #999999;
+    float: left;
+    font-size: 12px;
+    font-family: tahoma;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: auto;
+}
+.social_main {
+background: none repeat scroll rgb(59, 89, 152);
+border-radius: 5px 5px 0 0;
+float: left;
+width: 90%;
+margin-bottom: 15px;
+}
+.social_text {
+color: #FFFFFF;
+float: left;
+font-size: 20px;
+padding-left: 10px;
+padding-top: 15px;
+font-family: sans-serif;
+}
+.social_buttons img {
+float: left;
+}
+
+.head_text_large_login {
+color: #fbb14e;
+float: left;
+font-size: 25px;
+margin-bottom: 15px;
+margin-top: 10px;
+width: 90%;
+text-align: center;
+font-family: sans-serif;
+}
+.head_text_large_login a{
+    text-decoration: none;
+    color: rgb(59, 89, 152)
+}
+
+.login_butn .login_butn_submit:hover {
+background: #999;
+}
+.login_butn .login_butn_submit:hover {
+background: none repeat scroll 0 0 #999999;
+}
+.login_butn .login_butn_submit {
+background: none repeat scroll 0 0 rgb(59, 89, 152);
+border: medium none;
+color: #FFFFFF;
+cursor: pointer;
+float: left;
+font-size: 16px;
+padding: 10px 15px;
+text-decoration: none;
+width: auto;
+}
+.login_butn .login_butn_submit {
+background: none repeat scroll 0 0 rgb(59, 89, 152);
+border: medium none;
+color: #FFFFFF;
+float: left;
+font-size: 16px;
+padding: 10px 15px;
+text-decoration: none;
+width: auto;
+}
+.select{
+    //background: none repeat scroll 0 0 #F4F5F6;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    color: #999999;
+    float: right;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 7px;
+    padding: 6px;
+    width: 100%;
+    
+}
+.idproof{
+    border: 1px solid;
+    width:80%;   
+    margin-top: 30px;
+}
+
+.UserType{
+    width: 36%;
+    position: absolute;
+    margin-top: -3%;
+    background: #fbb14e;
+    height: 40px;
+    border-radius: 30px 30px 0px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 70px;
+    padding-top: 5px;
+    
+}
+.UserType input{
+    
+    padding-right: 20px;
+    color:#FFF;
+    background: #CCCCCC;
+    //margin-left: 100px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 13px;
+    
+}

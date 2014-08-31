@@ -1,0 +1,2569 @@
+@charset "utf-8";
+/* CSS Document */
+/* 1824 screens start  */
+@media only screen and (min-width:1824px)  
+{ 
+	/*Company and index page*/
+	.mid_text { width: 25%; }
+	.text_bar { width: 52%;}
+	.company_mid_text { width: 46%;}
+	.company_text_bar {  width: 49%; left:496px;}
+	/* #fadeoutt .request_button {  left: 470px;}  
+	#fadeoutt .hire_butn { left: 470px;}*/
+	/*Company and index page End*/
+    #footer_outer {  position:fixed; bottom:0;}
+    /*Faq Page*/
+    
+    .wrap_color { min-height:858px !important ;} 
+   
+    /*Login Page*/
+    .login_main_outer {padding: 60px 0px;}
+    .main_form_outer { min-height:515px!important;}
+	.main_wrapper_outer{min-height:700px;}
+	.white_content_invite { min-height: 840px;}
+	.main_wrapper_content {
+		margin-top: 10%;
+	} 
+    
+	
+}
+@media only screen and (min-width : 1536px) and (max-width : 1708px)
+{
+	.main_wrapper_outer{}
+	#footer_outer {position:fixed; bottom:0px;}
+	.main_wrapper_content {
+		margin-top: 7%;
+	}  
+	
+}
+/* 1824 screens start  */
+/*1440 screen mac air*/
+@media only screen and (min-width : 1440px) and (max-width : 1536px)
+{
+	.request_button {  }  
+	.hire_butn{  } 
+	.main_wrapper_outer{min-height:590px;}
+	#footer_outer {position:fixed; bottom:0px;}  
+	.main_wrapper_content {
+		margin-top: 5%;
+	}
+	
+}
+
+/* 1344 screens start  */
+@media only screen and (min-width: 1344px)
+{
+    #footer_outer {  position:fixed; bottom:0;} 
+   
+}
+@media only screen and (max-width : 1300px) and (min-width :1200px)
+{
+     #footer_outer {  position:fixed; bottom:0; }
+    .wrap_color { min-height: 712px; }
+    .main_form_outer { min-height: 445px;}
+    .faq_box { margin-left: 3%;  width: 92%;}
+    .request_button { }  
+	.hire_butn{ }   
+    
+  
+}
+/* 1344 screens start  */
+
+/* 1024*768 screens start  */
+@media only screen and (max-width : 1024px) and (min-width : 767px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 95%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 0px; width: 20;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 40px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .text_bar {font-size: 20px; line-height: 25px;top: 390px; width: 92%;}   
+    .text_bar em{font-size:26px;}
+    .request_button{right:38%; top:590px;}   
+    .subMenu .inner{left: 37%;top:0px;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0;}   
+    .subNavBtn_right{font-size:9px;}
+    .nav_right{width:16%;}
+    .nav_right .login_icon{padding-left: 33px; right: 7px;height:18px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:36px;}
+    .s1{min-height:100px;}
+    .img_logo3 img{width:100%;}
+    
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 12px;}
+    .c_logo_outer{height:76px;}
+    .c_discr{font-size: 13px;}
+    .c_option{font-size:13px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .s9_1_white_content_wrapper_main{margin: 70px 0 40px;}
+    .image_name1{font-size:35px;}
+    
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    
+    #footer_wrapper{width:100%;}
+    
+    
+    /* companies page start */
+    .inner_comp{left:370px !important;}
+    .subNavBtn_Companies{padding: 16px 0 3px 2%;}
+    .subNavBtn_right_companies{font-size:9px;}
+    .company_mid_text {padding-left: 20px;  padding-right: 20px;  width: 91%; }
+    .company_text_bar {width: 93%;}  
+    .nav_right_comp{right: 15px;}
+    .hire_butn{right:33%;}
+    .hire_2 {margin-top: 10px;padding: 0;}
+    .popup_last{left: 42%;position: relative;}
+    
+    #popup_box{left: 26%;top: 14%;}
+    .popup_container{height: 4342px;}
+    
+    /* login start */
+    
+    #footer_outer_1{z-index:1;}
+    .login_content_inner_main{ margin-left: 2%; width: 96%;}
+    #popup_box1{left: 28%;}
+    
+    
+    /* login end */
+    
+    
+    /* dashboard end */
+    .first_arrow{bottom:2%;float: left; position: absolute; right: 29%; width: 28%;}
+    .second_arrow {float: left; position: absolute;right: 4%; width:auto;}
+    .third_arrow{width:auto;}
+    .right_arrow_outer{right: 4%;bottom: -73px; width:auto;}
+    .left_arrow{width:auto;}
+    .last_arrow{width:auto;}
+    /* dashboard end */
+    
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+    
+}
+/* 1024*768 screens end  */
+/* 768*1024 screens start  */
+@media only screen and (min-width : 768px) and (max-width : 1023px)
+{ 
+    img{max-width:100%;}
+    #main_outer .inner { width: 95%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 0px; width: 25%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 30px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .text_bar {font-size: 18px; line-height: 25px;top: 390px; width: 92%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right:33%; top:590px;}   
+    .subMenu .inner{left: 33%; top:2%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0;}   
+    .subNavBtn_right{font-size:9px;}
+    .nav_right{top: 30%; width:19%;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px; height:18px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:36px;}
+    .s1{min-height:100px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding:40px 10px 15px 20px;}
+    
+    .s2{min-height:385px;}
+    .comp_box{margin:4px 2% 2%;width: 29%;}
+    .c_logo_outer{height:50px;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 12px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 15px;font-size: 11px;}
+    .c_option{font-size:9px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:97%;}
+    .white_col_left h1.title{font-size:26px;}
+    .white_col_left .title_info{line-height: 26px;font-size: 14px;}
+    .grey_col_right h1.title{font-size:26px;}
+    .grey_col_right .title_info{line-height: 26px;font-size: 14px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px;}
+    .mid_text_dark_s10_small{font-size:18px;width:97%;}
+    .s9_1_white_content_wrapper_main{margin: 70px 0 40px;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 18px;}
+    .graytop_text_outer{font-size: 13px;line-height: 17px;}
+    .arrow_blue{right: -22%;}
+    .gray_box_small_outer{width: 30%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    
+    .s16{min-height:300px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .s13_1{min-height:100px;}
+    
+    #footer_wrapper{width:100%;}
+    
+    
+    /* companies page start */
+    .inner_comp{left:25% !important; top:3% !important;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .nav_right_comp .hire_icon:hover{padding-left: 33px;}
+    .subNavBtn_right_companies{font-size:9px;}
+    .company_mid_text { font-size: 30px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 390px; width: 92%;}  
+    .nav_right_comp{width:27%; top:15px;}
+    .hire_butn{right:21%;}
+    .mid_text_dark_s9_small{font-size:18px;width:97%;}
+    .mid_text_dark_s9{padding: 35px 10px 15px 20px;}
+    .s3{min-height: 245px; padding:0px;}
+    .comp_s4{min-height:245px;}
+    .comp_white_col_left{padding-top:0px;}
+    .comp_talent_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_white_col_left .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_white_col_right{margin:0px;}
+    .comp_white_col_right .icon_img{margin-top: 8px;}
+    .comp_risk_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_grey_col_right h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_grey_col_right .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_s5{min-height:255px;}
+    .comp_s6{min-height:265px;}
+    .comp_grey_col_left .icon_img{margin-top: 15px;}
+    .comp_grey_col_right{margin-top: 0;}
+    .comp_s7{min-height:240px;}
+    .s10{min-height: 240px; padding:0px;}
+    .hire_2{padding:0px;margin-top: 10px;}
+    .popup_last{left: 37%;position: relative;}
+    
+    #popup_box{left: 2%;top: 14%;width: 81%;}
+    .popup_container{height: 3909px;}
+    .comp_s13_1{min-height:100px;}
+    
+    /* login start */
+    .logo_outer{margin-left: 10px;}
+    .submit_profile{width: 29%; margin-left: 4%;}
+    .submit_profile span{right: -30%;}
+    .submit_profile p{font-size: 15px;}
+    .login_content_inner_main{width:71%; margin-left: 3%;}
+    .login_register_outer{min-height: 410px;}
+    #popup_box1 {left: 20%; top: 40%;}
+    #main_outer{overflow: hidden;}
+    #footer_outer_1{z-index:1;}
+	.left_bar { width: 100%;}
+	.border_center { height: 1px;  margin-left: 4%;  margin-right: 4%; margin-top: 3%;  width: 93%; border-top: 1px solid #E5E5E5;}
+	.main_wrapper_inner {   width: 100%;}
+	.right_bar { margin: 54px 20%; width: 65%;}
+	.right_bar_1 { margin: 54px 20%; width: 65%;}
+	.footer_logo a { position:absolute;}
+	.main_wrapper_outer {  min-height: 730px;}
+    
+    
+    /* login end */
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	/*FAQ page {Sandeep} 15feb*/
+	.wrap_color { min-height: 802px; }
+	.faq_main_inner {  width: 100%;}
+	.faq_main_inner_content { margin-left: 2%; width: 94%;}
+	.faq_title { text-align: center;}
+	.faq_box { width:100%;}
+	.priv_text { font-size: 14px; line-height:22px;}
+	.top_menu_outer { display:none;}
+	.top_menu_outer_logout { display:block !important;}
+
+	/*FAQ page end {Sandeep}  15feb*/
+	.copyright {  margin-top: -41px;  width: 95%;}
+	/*Brows Jobs page Start (sandeep)*/
+	.jobs_box { float: left; width: 70%;}  
+	.dashjobs_right { margin: -8px 19px 20px;  width: 78%;}
+	#accordion .head .company_img { width: 15%;}
+	#accordion .head .company_info { margin-left: 3px;  width: 84%;}
+	.company_title {  font-size: 13px; }
+	.company_detail { font-size: 11px;}
+	.company_skills {font-size: 10px; line-height: 14px;}
+	.jobs_row_section2_title_blue { font-size: 11px;}
+	.job_profile { font-size: 11px;}
+	.job_salary { font-size: 12px;  margin-bottom: 5px;  margin-top: 5px;}
+	.job_info { font-size: 9px;}
+	.jobs_row_section2_title { font-size: 11px; margin-left: -6px;}
+	.jobs_row_section2_inner_right2_title {font-size: 12px; margin-left: 5px;}
+	.founder_text { font-size: 11px;}
+	.jobs_row_section2_info { font-size: 11px;  line-height: 19px; }
+	
+/*Brows Jobs page end (sandeep)*/
+
+}
+
+
+
+/* 768*1024 screens end  */
+
+
+/* 600*800 screens end  */
+@media only screen and (min-width : 640px) and (max-width : 767px)
+{
+    .inner { width: 98%;}
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+}
+/* 600*800 screens end  */
+
+/* kindle-portrait 600*1024 screens start  */ 
+@media only screen and (min-width : 600px) and (max-width : 767px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 95%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 4px; width: 25%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text {font-size: 20px; padding-left: 20px;padding-right: 20px; padding-top: 65px; width: 88%; }
+    .text_bar {font-size: 18px; line-height: 25px; top: 48%; width: 92%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right: 36%;  top: 82%; width: 28%;}   
+    .subMenu .inner{left: 26%; top: -6%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0;}   
+    .subNavBtn_right{font-size:9px;}
+    .nav_right{top: 29%;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px; height:18px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:36px;}
+    .s1{min-height:100px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding:40px 10px 15px 20px;}
+    
+    .s2{min-height:385px;}
+    .comp_box{margin:4px 2% 2%;width: 29%;}
+    .c_logo_outer{height:50px;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 12px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 15px;font-size: 11px;}
+    .c_option{font-size:9px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:97%;}
+    .white_col_left h1.title{font-size:26px;}
+    .white_col_left .title_info{line-height: 26px;font-size: 14px;}
+    .grey_col_right h1.title{font-size:26px;}
+    .grey_col_right .title_info{line-height: 26px;font-size: 14px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px;}
+    .mid_text_dark_s10_small{font-size:18px;width:97%;}
+    .s9_1_white_content_wrapper_main{margin: 70px 0 40px;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 18px;}
+    .graytop_text_outer{font-size: 13px;line-height: 17px;}
+    .arrow_blue{right: -22%;}
+    .gray_box_small_outer{width: 30%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    
+    .s16{min-height:300px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .s13_1{min-height:100px;}
+    
+    #footer_wrapper{width:100%;}
+    
+    
+    /* companies page start */
+    .inner_comp{left:25% !important; top:3% !important;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .nav_right_comp .hire_icon:hover{padding-left: 33px;}
+    .subNavBtn_right_companies{font-size:9px;}
+    .company_mid_text { font-size: 20px; padding-left: 20px;padding-right: 20px; padding-top: 65px; width: 88%;  }
+    .company_text_bar {font-size: 18px; line-height: 25px; top: 48%; width: 92%;}  
+    .nav_right_comp{width:27%; top:15px;}
+    .hire_butn{right: 42%;  top: 82%; width: 17%;}
+    .mid_text_dark_s9_small{font-size:18px;width:97%;}
+    .mid_text_dark_s9{padding: 35px 10px 15px 20px;}
+    .s3{min-height: 245px; padding:0px;}
+    .comp_s4{min-height:245px;}
+    .comp_white_col_left{padding-top:0px;}
+    .comp_talent_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_white_col_left .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_white_col_right{margin:0px;}
+    .comp_white_col_right .icon_img{margin-top: 8px;}
+    .comp_risk_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_grey_col_right h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_grey_col_right .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_s5{min-height:255px;}
+    .comp_s6{min-height:265px;}
+    .comp_grey_col_left .icon_img{margin-top: 15px;}
+    .comp_grey_col_right{margin-top: 0;}
+    .comp_s7{min-height:240px;}
+    .s10{min-height: 240px; padding:0px;}
+    .hire_2{padding:0px;margin-top: 10px;}
+    .popup_last{left: 37%;position: relative;}
+    
+    #popup_box{left: 2%;top: 14%;width: 81%;}
+    .popup_container{height: 3909px;}
+    .comp_s13_1{min-height:100px;}
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	/*FAQ page {Sandeep} 15feb*/
+	.wrap_color { min-height: 698px; }
+	.faq_main_inner {  width: 100%;}
+	.faq_main_inner_content { margin-left: 3%; width: 89%;}
+	.faq_title { text-align: center;}
+	.faq_box { width:100%;}
+	.priv_text { font-size: 12px; line-height:20px;}
+	.top_menu_outer { display:none;}
+	.top_menu_outer_logout { display:block !important;}
+	
+	
+	/*FAQ page end {Sandeep}  15feb*/
+
+	
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: fixed; width: 23%; background:none;}
+	.dashpro_left_box {margin-left:0; width: 59%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 10px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 69%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+	.copyright { left: 34%; position: absolute;  width: 30%; margin-top:40px;}
+	.main_wrapper_outer {  min-height: 627px;}
+}
+/* kindle-portrait 600*1024 screens End  */ 	
+	
+
+
+
+
+
+/* 568*600 screens start */
+@media only screen and (min-width : 568px) and (max-width : 599px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 95%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 8px; width: 20;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 30px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .text_bar {font-size: 18px; line-height: 25px;top: 390px; width: 92%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right:28%; top:590px;}   
+    .subMenu .inner{left:150px;top:0px;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0;}   
+    .subNavBtn_right{font-size:9px;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px; height:18px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:36px;}
+    .s1{min-height:100px;}
+    .img_logo3 img{width:100%;}
+    
+    .s2{min-height:385px;}
+    .comp_box{margin:4px 2% 2%;width: 29%;}
+    .c_logo_outer{height:50px;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 12px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 15px;font-size: 11px;}
+    .c_option{font-size:9px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:97%;}
+    .white_col_left h1.title{font-size:26px;}
+    .white_col_left .title_info{line-height: 26px;font-size: 14px;}
+    .grey_col_right h1.title{font-size:26px;}
+    .grey_col_right .title_info{line-height: 26px;font-size: 14px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px;}
+    .mid_text_dark_s10_small{font-size:18px;width:97%;}
+    .s9_1_white_content_wrapper_main{margin: 70px 0 40px;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 18px;}
+    .graytop_text_outer{font-size: 13px;line-height: 17px;}
+    .arrow_blue{right: -22%;}
+    .gray_box_small_outer{width: 30%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    
+    .s16{min-height:300px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .s13_1{min-height:100px;}
+    
+    #footer_wrapper{width:100%;}
+    
+    
+    /* companies page start */
+    .inner_comp{left:130px !important;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .nav_right_comp .hire_icon:hover{padding-left: 33px;}
+    .subNavBtn_right_companies{font-size:9px;}
+    .company_mid_text { font-size: 30px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 390px; width: 92%;}  
+    .nav_right_comp{width:27%;}
+    .hire_butn{right:21%;}
+    .mid_text_dark_s9_small{font-size:18px;width:97%;}
+    .mid_text_dark_s9{padding: 35px 10px 15px 20px;}
+    .s3{min-height: 245px; padding:0px;}
+    .comp_s4{min-height:245px;}
+    .comp_white_col_left{padding-top:0px;}
+    .comp_talent_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_white_col_left .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_white_col_right{margin:0px;}
+    .comp_white_col_right .icon_img{margin-top: 8px;}
+    .comp_risk_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_grey_col_right h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_grey_col_right .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_s5{min-height:255px;}
+    .comp_s6{min-height:265px;}
+    .comp_grey_col_left .icon_img{margin-top: 15px;}
+    .comp_grey_col_right{margin-top: 0;}
+    .comp_s7{min-height:240px;}
+    .s10{min-height: 240px; padding:0px;}
+    .hire_2{padding:0px;margin-top: 10px;}
+    .popup_last{left: 37%;position: relative;}
+    
+    #popup_box{left: 2%;top: 14%;width: 81%;}
+    .popup_container{height: 3909px;}
+    .comp_s13_1{min-height:100px;}
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	
+	
+	/*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 48%; width: 115px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 15px;width: 115px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: fixed; width: 23%; background:none;}
+	.dashpro_left_box {margin-left:0; width: 59%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 10px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 69%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+	
+}	
+
+/* 568*600 screens End */
+
+/* 480*600 screens start  */
+@media only screen and (min-width : 480px) and (max-width : 599px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 89%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 3px; width: 30%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right: 16%;top: 86%;}   
+    .subMenu .inner{left: 15%;top: 92%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}   
+    .subNavBtn_right{font-size:9px;height: auto;}
+    .nav_right{width: 37%;top: 7px;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:25px;}
+    .s1{min-height:70px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding: 30px 10px 15px 20px;width: 91%;}
+    .white_col_left{padding-top: 10px; width:66%;}
+    .white_col_right{width: 27%;float: right;}
+    .white_col_right .icon_img{float: right;width: 100%;}
+    /*.icon_img img{width:auto;}*/
+    .s12_grey_text{font-size: 27px;}
+    
+    
+    .s2{min-height: 1000px;}
+    #main_outer .inner { width: 89%;}
+    .inner_comp{left: 22% !important;top: 92% !important;} 
+    .subNavBtn_Companies{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}  
+    .subNavBtn_right_companies{font-size:9px;height: auto;}
+    .nav_right_comp{width: 37%;top: 7px;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .comp_box_main{margin: 15px 0 0;}
+    .comp_box{margin: 4px 2% 7%;width: 97%;}
+    .c_logo_outer{height:79px;width: 25%;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 14px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 20px;font-size: 14px;}
+    .c_option{font-size:12px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:94%;bottom: -48%;}
+    .white_col_left h1.title{font-size:20px;}
+    .white_col_left .title_info{line-height: 16px;font-size: 12px;}
+    .grey_col_right h1.title{font-size:20px;}
+    .grey_col_right .title_info{line-height: 16px;font-size: 12px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px; width:91%; padding-top:40px;}
+    .mid_text_dark_s10_small{font-size:18px;width:94%;}
+    .s9_1_white_content_wrapper_main{margin: 40px 0;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 14x;}
+    .graytop_text_outer{font-size: 12px;line-height: 17px;}
+    .arrow_blue{right: -22%; width:22%;}
+    .gray_box_small_outer{width: 95%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    .wrap .s4{min-height: 145px;}
+    .grey_col_left{width: 27%;}
+    .grey_col_left .icon_img{width: 100%;}
+    .grey_col_right{width:70%;}
+    .wrap .s7{min-height: 150px;}
+    .wrap .s6{min-height: 140px;}
+    .wrap .s8{min-height: 145px;}
+    .wrap .s12{min-height: 875px;}
+    .wrap .s16{min-height:375px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    .s15_gray_head{font-size: 20px;line-height: 26px;}
+    .s15_img_main_outer{margin-left: 5%;width: 43%;}
+    .s13_1{min-height:65px;}
+    .s9_1{min-height:320px;}
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .wrap .s10{min-height: 305px;}
+    
+    .company_mid_text{ font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}  
+    .hire_butn {right: 4%;top: 83%;}
+    .comp_white_col_left {padding-top: 0; width: 74%;}
+    .comp_talent_heading {font-size: 18px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title {font-size: 16px; margin: 0 0 5px;}
+    .comp_talent_heading {font-size: 18px; margin: 0 0 5px;}
+    .comp_white_col_right {margin: 0; width: 26%;}
+    .icon_img img { margin-top: 60%;width: 100%;}
+    .comp_s4 {min-height: 270px;}
+    .comp_risk_heading {font-size: 20px;margin: 0 0 5px;}
+    .comp_grey_col_left {float: left; width: 30%;}
+    .comp_grey_col_right {margin-top: 0; width: 68%;}
+    
+    .comp_grey_col_right h1.title { font-size: 16px; margin: 0 0 5px;}
+    .comp_grey_col_right .title_info {font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_s5 {min-height: 220px;}
+    .popup_last {left: 28%; position: relative;}
+    .comp_s13_1 {min-height: 65px;}
+    
+    #footer_wrapper{width:100%;}
+    .footer_icon_outer_fb{width:25px;}
+    .footer_logo a{background:none;height: auto;width: 27%;margin-top: 14px;}
+    .footer_logo a:hover{background:none;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 4976px;}
+    
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	
+	/*newlogin start {SAhil} 12feb*/
+	#top_wrapper {width: 100%;}
+	.logo_outer {text-align: center;width: 295px; margin: 5px 0;}
+	.main_wrapper_inner {width: 100%;}
+	.left_bar {float: left;width: 100%;	}
+	.border_center {border-top: 1px solid #E5E5E5;height: 2px; width: 84%;}
+	.right_bar {float: left; margin: 8px 0 8px 12px; width: 95%;}
+	.head_text_large_login {width: 95%;}
+	.social_main {width: 97%;}
+	.social_buttons {padding: 10px 75px;width: 48%;}
+	.login_or{width: 97%;}
+	#footer_wrapper { width: 100%;}
+	#icon_outer_main {margin: 6px;}
+	.footer_text { margin-left: 17%; margin-top: 3px; padding-top: 8px; text-align: center; width: 70%;}
+    .footer_text a { margin-left: 7px; width: auto;}
+	.footer_copyright{ bottom: -16%; color: #999999; float: left; left: 31%; position: absolute; width: 52%;}
+	.footer_logo{position: absolute;right: 0;top: 6px;width: auto;}
+	.footer_logo a{ background:none; float:none; width:auto; height:auto;}
+	.footer_logo img { float: right; max-width: 70%;}
+	.right_bar_1 { display: none; float: left; margin: 8px 0 8px 12px; width: 95%;}
+	/*newlogin end {SAhil} 12feb*/
+	
+	/*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 48%; width: 115px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 15px;width: 115px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: fixed; width: 23%; background:none;}
+	.dashpro_left_box {margin-left:0; width: 59%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 10px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 69%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+	
+}
+/* 480*600 screens start  */
+
+/* 380*480 android galaxy screens start  */
+@media only screen and (min-width : 380px) and (max-width : 479px)
+{   img{max-width:100%;}
+    #main_outer .inner { width: 89%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 3px; width: 30%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right: 16%;top: 86%;}   
+    .subMenu .inner{left: 15%;top: 92%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}   
+    .subNavBtn_right{font-size:9px;height: auto;}
+    .nav_right{width: 37%;top: 7px;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:25px;}
+    .s1{min-height:70px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding: 30px 10px 15px 20px;width: 91%;}
+    .white_col_left{padding-top: 10px; width:66%;}
+    .white_col_right{width: 27%;float: right;}
+    .white_col_right .icon_img{float: right;width: 100%;}
+    .s12_grey_text{font-size: 27px;} 
+    
+    
+    .s2{min-height: 1000px;}
+    #main_outer .inner { width: 89%;}
+    .inner_comp{left: 22% !important;top: 92% !important;} 
+    .subNavBtn_Companies{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}  
+    .subNavBtn_right_companies{font-size:9px;height: auto;}
+    .nav_right_comp{width: 37%;top: 7px;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .comp_box_main{margin: 15px 0 0;}
+    .comp_box{margin: 4px 2% 7%;width: 97%;}
+    .c_logo_outer{height:79px;width: 25%;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 14px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 20px;font-size: 14px;}
+    .c_option{font-size:12px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:94%;bottom: -48%;}
+    .white_col_left h1.title{font-size:20px;}
+    .white_col_left .title_info{line-height: 16px;font-size: 12px;}
+    .grey_col_right h1.title{font-size:20px;}
+    .grey_col_right .title_info{line-height: 16px;font-size: 12px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px; width:91%; padding-top:40px;}
+    .mid_text_dark_s10_small{font-size:18px;width:94%;}
+    .s9_1_white_content_wrapper_main{margin: 40px 0;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 14px;}
+    .graytop_text_outer{font-size: 12px;line-height: 17px;}
+    .arrow_blue{right: -22%; width:22%;}
+    .gray_box_small_outer{width: 95%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    .wrap .s4{min-height: 145px;}
+    .grey_col_left{width: 27%;}
+    .grey_col_left .icon_img{width: 100%;}
+    .grey_col_right{width:64%;}
+    .wrap .s7{min-height: 150px;}
+    .wrap .s6{min-height: 140px;}
+    .wrap .s8{min-height: 145px;}
+    .wrap .s12{min-height: 875px;}
+    .wrap .s16{min-height:375px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%; text-align:center;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    .s15_gray_head{font-size: 20px;line-height: 26px;}
+    .s15_img_main_outer{margin-left: 5%;width: 43%;}
+    .s13_1{min-height:65px;}
+    .s9_1{min-height:320px;}
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .wrap .s10{min-height: 305px;}
+    
+    .company_mid_text{ font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}  
+    .hire_butn {right: 2%;top: 83%;}
+    .comp_white_col_left {padding-top: 0; width: 74%;}
+    .comp_talent_heading {font-size: 18px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title {font-size: 16px; margin: 0 0 5px;}
+    .comp_white_col_left .title_info{font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_talent_heading {font-size: 18px; margin: 0 0 5px;}
+    .comp_white_col_right {margin: 0; width: 26%;}
+    .icon_img img { margin-top: 18%;width: 100%;}
+    .comp_s4 {min-height: 270px;}
+    .comp_risk_heading {font-size: 20px;margin: 0 0 5px;}
+    .comp_grey_col_left {float: left; width: 30%;}
+    .comp_grey_col_right {margin-top: 0; width: 68%;}
+    
+    .comp_grey_col_right h1.title { font-size: 16px; margin: 0 0 5px;}
+    .comp_grey_col_right .title_info {font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_s5 {min-height: 220px;}
+    .popup_last {left: 28%; position: relative; top:17%}
+    .hire_2 { padding: 0; width: 10%;}
+    .comp_s13_1 {min-height: 65px;}
+    
+    #footer_wrapper{width:100%;}
+    .footer_icon_outer_fb{width:25px;}
+    .footer_logo a{background:none;height: auto;width: 27%;margin-top: 14px;}
+    .footer_logo a:hover{background:none;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 4976px;} 
+    .red_butt{margin-right:10px;}
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	
+	/*newlogin start {SAhil} 12feb*/
+	#top_wrapper {width: 100%;}
+	.logo_outer {text-align: center;width: 295px; margin: 5px 0;}
+	.main_wrapper_inner {width: 100%;}
+	.left_bar {float: left;width: 100%;	}
+	.border_center {border-top: 1px solid #E5E5E5;height: 2px; width: 84%;}
+	.right_bar {float: left; margin: 8px 0 8px 12px; width: 95%;}
+	.head_text_large_login {width: 95%;}
+	.social_main {width: 97%;}
+	.social_buttons {padding: 10px 75px;width: 48%;}
+	.login_or{width: 97%;}
+	#footer_wrapper { width: 100%;}
+	#icon_outer_main {margin: 6px;}
+	.footer_text { margin-left: 17%; margin-top: 3px; padding-top: 8px; text-align: center; width: 70%;}
+    .footer_text a { margin-left: 7px; width: auto;}
+	.footer_copyright{ bottom: -16%; color: #999999; float: left; left: 31%; position: absolute; width: 52%;}
+	.footer_logo{position: absolute;right: 0;top: 6px;width: auto;}
+	.footer_logo a{ background:none; float:none; width:auto; height:auto;}
+	.footer_logo img { float: right; max-width: 70%;}
+	.right_bar_1 { display: none; float: left; margin: 8px 0 8px 12px; width: 95%;}
+	/*newlogin end {SAhil} 12feb*/
+	
+	/*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 92%; width: 75px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 130px;width: 75px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: relative !important; width: 100%; background:none;}
+	.dashpro_left_box {margin-left: 2%; width: 29%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 12px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 100%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+	/*Brows Jobs page Start (sandeep)*/
+	.dashjobs_right {  width: 91%;  margin: 0 30px 20px;}
+	#accordion .head .company_img { width: 25%;}
+	#accordion .head .company_info { margin-left: 3px;  width: 70%;}
+	.company_title {  font-size: 13px; }
+	.company_detail { font-size: 12px;}
+	.company_skills {font-size: 10px; line-height: 14px;}
+	.jobs_row_section2_title_blue { font-size: 11px;}
+	.job_profile { font-size: 11px;}
+	.job_salary { font-size: 12px;  margin-bottom: 5px;  margin-top: 5px;}
+	.job_info { font-size: 9px;}
+	.jobs_row_section2_title { font-size: 11px; margin-left: -6px;}
+	.jobs_row_section2_inner_right2_title {font-size: 12px; margin-left: 5px;}
+	.founder_text { font-size: 11px;}
+	.jobs_row_section2_info { font-size: 11px;  line-height: 19px; }
+	
+/*Brows Jobs page end (sandeep)*/
+	
+} 
+/* 380*480 android galaxy screens end  */
+
+/* 320*480 screens start  */
+@media only screen and (min-width : 320px) and (max-width : 479px)
+{
+	img{max-width:100%;}
+	/*index page changes start by (sandeep)*/
+	.s13_bg { min-height: 240px;} 
+	.testimonial_index { margin-top: 0px;  padding: 10px;  width: 93%;}
+	.testimonial_index h3 { font-size: 13px; margin-top: 25px;}
+	.testimonial_index p {  font-size: 13px;}
+	.testimonial_index_20 { float: left; margin-top: -37px; padding: 10px; width: 95%;}
+	.testimonial_index_20 h3 { font-size: 13px;  margin-top: 24px;}
+	.testimonial_index_20 p {font-size: 13px;}
+	.s20_bg {  min-height: 260px;}
+	.img_logo1 { width:100%;}
+	.img_logo1 img { float: left; width: 98%;}
+	.img_logo2 { width:100%;}
+	.img_logo2 img { float: left; width: 98%;}
+	.img_logo3 { width:100%;}
+	.img_logo3 img { float: left; width: 98%;}
+	
+	/*index page changes End by (sandeep)*/ 
+
+    .mid_outer{z-index:-1;}
+    #main_outer .inner { width: 89%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 3px; width: 45%;}
+
+    .logo.logo_link img {width: 93%;}
+
+    .top_header_outr{width:100% !important;}
+    .mid_text { z-index:-1;font-size: 16px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .text_bar {font-size: 12px; line-height: 25px !important;top: 47%; width: 83%; z-index:-1;}   
+    .text_bar em{font-size:16px;}
+    .request_button{left: 11%; top: 80%;width: 54%; z-index: -1;}   
+    .subMenu .inner{left: 9%;top: 92%;}  
+
+    .subNavBtn{font-size:8px;margin: 0 3% 0 0; padding-top: 2px;height: auto;}   
+    .subNavBtn_right{font-size:8px;height: auto;}
+    .nav_right{width: 49%;top: 7px; }
+    .nav_right .login_icon{ background: url("../images/login_icon_small.html") no-repeat scroll 0 0 #FA565A; font-size: 9px;  height: 12px; left: -6px;    overflow: hidden;  padding-left: 23px;  padding-right: 0; padding-top: 3px;  width: 34px; margin-top:2px;}
+    .nav_right .login_icon:hover{  background: url("../images/login_icon_small.html") no-repeat scroll 0 0 #2ccafd;padding-left: 23px; }
+
+    .white_wrapper{font-size:16px;}
+    .s1{min-height:50px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{ padding: 54px 10px 2px 20px;width: 91%;}
+    .white_col_left{padding-top: 10px; width:66%;}
+    .white_col_right{width: 27%;float: right;}
+    .white_col_right .icon_img{float: right;width: 100%;}
+    .s12_grey_text{font-size: 27px;}
+    
+    
+    .s2{min-height: 1000px;}
+    #main_outer .inner { width: 95%;}
+    .inner_comp{left: 22% !important;top: 92% !important;} 
+    .subNavBtn_Companies{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}  
+    .subNavBtn_right_companies{font-size:9px;height: auto;}
+    .nav_right_comp{width: 37%;top: 7px;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .comp_box_main{margin: 15px 0 0;}
+    .comp_box{margin: 4px 2% 7%;width: 97%;}
+    .c_logo_outer{height:79px;width: 25%;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 14px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 20px;font-size: 14px;}
+    .c_option{font-size:12px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:94%;top: 98%;}
+    .white_col_left h1.title{font-size:20px;}
+    .white_col_left .title_info{line-height: 16px;font-size: 12px;}
+    .grey_col_right h1.title{font-size:20px;}
+    .grey_col_right .title_info{line-height: 16px;font-size: 12px;}
+    .mid_text_dark_s10{ font-size: 35px; margin-bottom: -11px;  padding-top: 60px;  width: 91%;}
+    .mid_text_dark_s10_small{font-size:18px;width:94%;}
+    .s9_1_white_content_wrapper_main{margin: 40px 0;}
+    .gray_box_small_s15{ margin: 0 0 10% 3%; width:98%;}
+    .margin_free{ margin: 11% 0 10% 3%;}
+    .wr_icon_outer{padding-left: 80px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 18px;}
+    .graytop_text_outer{font-size: 14px; line-height: 22px;}
+    .arrow_blue{left: 40%; margin-top: 69%;  width: 22%;}   
+    .gray_box_small_outer{width: 95%;margin: 0 0 0 15px;} 
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    .wrap .s4{min-height: 190px;}
+    .grey_col_left{width: 27%;}
+    .grey_col_left .icon_img{width: 100%;}
+    .grey_col_right{width:64%;}
+    .wrap .s7{min-height: 177px;}
+    .wrap .s6{min-height: 140px;}
+    .wrap .s8{min-height: 160px;}
+    .wrap .s12{min-height: 820px;}
+    .wrap .s16{min-height:455px;}
+    .s15_img_outer{margin-left: 6%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%; text-align:center;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    .s15_gray_head{font-size: 20px;line-height: 26px;}
+    .s15_img_main_outer{margin-left: 5%;width: 43%;}
+    .s13_1{min-height:325px;}
+    .s9_1{min-height:1140px;}
+    .s13{min-height: 45px;padding-top: 20px;}
+    .btn-red{padding: 0; }
+    .wrap .s10{min-height: 218px;}
+    
+    .company_mid_text{ font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}  
+    .hire_butn {right: 2%;top: 83%;}
+    .comp_white_col_left {padding-top: 0; width: 74%;}
+    .comp_talent_heading {font-size: 18px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title {font-size: 16px; margin: 0 0 5px;}
+    .comp_white_col_left .title_info{font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_talent_heading {font-size: 18px; margin: 0 0 5px;}
+    .comp_white_col_right {margin: 0; width: 26%;}
+    .icon_img img { margin-top: 18%;width: 100%;}
+    .comp_s4 {min-height: 270px;}
+    .comp_risk_heading {font-size: 20px;margin: 0 0 5px;}
+    .comp_grey_col_left {float: left; width: 30%;}
+    .comp_grey_col_right {margin-top: 0; width: 68%;}
+    
+    .comp_grey_col_right h1.title { font-size: 16px; margin: 0 0 5px;}
+    .comp_grey_col_right .title_info {font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_s5 {min-height: 220px;}
+    .popup_last {left: 28%; position: relative; top:17%}
+    .hire_2 { padding: 0; width: 10%;}
+    .comp_s13_1 {min-height: 65px;}
+    
+    #footer_wrapper{width:100%;}
+    .footer_icon_outer_fb{width:25px;}
+    .footer_logo a{background:none;height: auto;width: 27%;margin-top: 14px;}
+    .footer_logo a:hover{background:none;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 5220px;}
+    .red_butt{margin-right:10px;}
+	
+	/*newlogin start {SAhil} 12feb*/
+	#top_wrapper {width: 100%;}
+	.logo_outer {text-align: center;width:52%; margin: 5px 0;}
+	.main_wrapper_inner {width: 100%;}
+	.left_bar {float: left;width: 100%;	}
+	.border_center {border-top: 1px solid #E5E5E5;height: 2px; width: 84%;}
+	.right_bar {float: left; margin: 8px 0 8px 12px; width: 95%;}
+	.head_text_large_login {width: 95%;}
+	.social_main {width: 97%;}
+	.social_buttons {padding: 10px 75px;width: 48%;}
+	.login_or{width: 97%;}
+	#footer_wrapper { width: 100%;}
+	#icon_outer_main {margin: 6px;}
+	.footer_text { margin-left: 17%; margin-top: 3px; padding-top: 8px; text-align: center; width: 70%;}
+    .footer_text a { margin-left: 7px; width: auto;}
+	.footer_copyright{ bottom: -16%; color: #999999; float: left; left: 31%; position: absolute; width: 52%;}
+	.footer_logo{position: absolute;right: 0;top: 6px;width: auto;}
+	.footer_logo a{ background:none; float:none; width:auto; height:auto;}
+	.footer_logo img { float: right; max-width: 70%;}
+	.right_bar_1 { display: none; float: left; margin: 8px 0 8px 12px; width: 95%;}
+	
+	/*newlogin end {SAhil} 12feb*/
+	
+   /*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 92%; width: 75px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 130px;width: 75px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+	/*FAQ page {Sandeep} 15feb*/
+	.ui-tabs .ui-tabs-nav li a {  padding: 7px 9px !important;}
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {  font-size: 11px !important;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {font-size: 11px !important;} 
+	.ui-accordion .ui-accordion-content {  font-size: 11px !important;} 
+	
+	
+	.faq_main_inner {  width: 100%;}
+	.faq_main_inner_content { margin-left: 2%; width: 96%;}
+	.faq_title { text-align: center;}
+	.faq_box { width:100%; padding:0px;}
+	.priv_text { font-size: 12px; line-height:20px;}
+	
+	
+	/*FAQ page end {Sandeep}  15feb*/
+	
+	
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px; display:none;}
+	.top_menu_outer_logout { display:block !important;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: relative !important; width: 100%; background:none;}
+	.dashpro_left_box {margin-left: 2%; width: 29%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 12px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 100%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+	.copyright { margin-top: -41px; width: 96%;}
+	
+	/*Brows Jobs page Start (sandeep)*/
+	.dashjobs_right {  width: 91%;  margin: 0 30px 20px;}
+	#accordion .head .company_img { width: 25%;}
+	#accordion .head .company_info { margin-left: 3px;  width: 70%;}
+	.company_title {  font-size: 13px; }
+	.company_detail { font-size: 12px;}
+	.company_skills {font-size: 10px; line-height: 14px;}
+	.jobs_row_section2_title_blue { font-size: 11px;}
+	.job_profile { font-size: 11px;}
+	.job_salary { font-size: 12px;  margin-bottom: 5px;  margin-top: 5px;}
+	.job_info { font-size: 9px;}
+	.jobs_row_section2_title { font-size: 11px; margin-left: -6px;}
+	.jobs_row_section2_inner_right2_title {font-size: 12px; margin-left: 5px;}
+	.founder_text { font-size: 11px;}
+	.jobs_row_section2_info { font-size: 11px;  line-height: 19px; }
+	
+/*Brows Jobs page end (sandeep)*/
+	
+   /* #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}23jan2014*/
+    
+    
+    
+}
+/* 320*480 screens start  */ 
+@media only screen and (min-width : 480px) and (max-width : 567px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 89%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 3px; width: 30%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 14px;  padding: 60px 20px 5px; width: 76%;}
+    .text_bar {font-size: 12px; line-height: 18px; padding-bottom: 5px; padding-top: 5px; top: 50%; width: 83%;} 
+    .text_bar em{font-size:22px;}
+    .request_button{right: 34%; top: 84%; width: 30%;}   
+    .subMenu .inner{left: 15%;top: 92%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}   
+    .subNavBtn_right{font-size:9px;height: auto;}
+    .nav_right{width: 30%;top: 7px;}
+    .nav_right .login_icon{overflow: hidden; height:18px; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:25px;}
+    .s1{min-height:70px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding: 30px 10px 15px 20px;width: 91%;}
+    .white_col_left{padding-top: 10px; width:66%;}
+    .white_col_right{width: 27%;float: right;}
+    .white_col_right .icon_img{float: right;width: 100%;} 
+    /*.icon_img img{width:auto;}*/
+  
+    .s12_grey_text{font-size: 27px;}
+    .s2{min-height: 1000px;}
+    #main_outer .inner { width: 89%;}
+    .inner_comp{left: 22% !important;top: 92% !important;} 
+    .subNavBtn_Companies{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}  
+    .subNavBtn_right_companies{font-size:9px;height: auto;}
+    .nav_right_comp{width: 37%;top: 7px;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .comp_box_main{margin: 15px 0 0;}
+    .comp_box{margin: 4px 2% 7%;width: 97%;}
+    .c_logo_outer{height: 75px; width: 19%;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 14px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 20px;font-size: 14px;}
+    .c_option{font-size:12px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:94%;bottom: -48%;}
+    .white_col_left h1.title{font-size:20px;}
+    .white_col_left .title_info{line-height: 16px;font-size: 12px;}
+    .grey_col_right h1.title{font-size:20px;}
+    .grey_col_right .title_info{line-height: 16px;font-size: 12px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px; width:91%; padding-top:40px;}
+    .mid_text_dark_s10_small{font-size:18px;width:94%;}
+    .s9_1_white_content_wrapper_main{margin: 40px 0;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 14px;}
+    .graytop_text_outer{font-size: 12px;line-height: 17px;}
+    .arrow_blue{right: -22%; width:22%;}
+    .gray_box_small_outer{width: 95%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+
+    .wrap .s4{min-height: 145px;}
+    .grey_col_left{width: 27%;}
+    .grey_col_left .icon_img{width: 100%;}
+    .grey_col_right{width:64%;}
+    .wrap .s7{min-height: 150px;}
+    .wrap .s6{min-height: 140px;}
+    .wrap .s8{min-height: 145px;}
+    .wrap .s12{min-height: 875px;}
+    .wrap .s16{min-height:375px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%; text-align:center;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    .s15_gray_head{font-size: 20px;line-height: 26px;}
+    .s15_img_main_outer{margin-left: 5%;width: 43%;}
+    .s13_1{min-height:65px;}
+    .s9_1{min-height:320px;}
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .wrap .s10{min-height: 305px;}
+    
+    .company_mid_text{ font-size: 14px; padding: 70px 20px 5px; width: 76%;}
+    .company_text_bar {font-size: 12px; line-height: 18px; padding-bottom: 5px;padding-top: 5px;top: 54%;width: 83%;}
+    .company_text_bar em{font-size: 22px;}
+    .request_button{right: 34%; top: 84%; width: 30%;} 
+    .hire_butn {right: 40%; top: 83%; width: 18%;}
+    .comp_white_col_left {padding-top: 0; width: 74%;}
+    .comp_talent_heading {font-size: 18px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title {font-size: 16px; margin: 0 0 5px;}
+    .comp_white_col_left .title_info{font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_talent_heading {font-size: 18px; margin: 0 0 5px;}
+    .comp_white_col_right {margin: 0; width: 26%;}
+    .icon_img img { margin-top: 18%;width: 100%;}
+    .comp_s4 {min-height: 270px;}
+    .comp_risk_heading {font-size: 20px;margin: 0 0 5px;}
+    .comp_grey_col_left {float: left; width: 30%;}
+    .comp_grey_col_right {margin-top: 0; width: 68%;}
+    
+    .comp_grey_col_right h1.title { font-size: 16px; margin: 0 0 5px;}
+    .comp_grey_col_right .title_info {font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_s5 {min-height: 220px;}
+    .popup_last {left: 28%; position: relative; top:17%}
+    .hire_2 { padding: 0; width: 10%;}
+    .comp_s13_1 {min-height: 65px;}
+    
+    #footer_wrapper{width:100%;}
+    .footer_icon_outer_fb{width:25px;}
+    .footer_logo a{background:none;height: auto;width: 27%;margin-top: 14px;}
+    .footer_logo a:hover{background:none;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 4976px;}
+    .red_butt{margin-right:10px;} 
+    
+    /* login start*/
+   #main_outer{overflow: hidden;}
+    .banner{width: 100%;}
+    .logo_outer{ margin: 5px 0;width: 50%;}
+    .login_main_inner{width: 100%;}
+    .submit_profile img{width: 40%;}
+    .submit_profile span{top: 12%; right: -35%;}
+    .submit_profile p{font-size: 11px;}
+    .main_form_inner{width: 463px;}
+    .head_text_large{width: 95%; margin-left: 5%;}
+    .head_text_Register {float: left; margin-left: 5%; top: 42%; width: 95%; position: absolute;}
+    .login_box {margin-left: 3%; width: 80%;}
+    .register_box {float: left;margin-left: 5%; margin-top: 3%; width: 80%;}
+    .textarea{width: 95%;}
+    #popup_box1 {left: 0; top: 10%; width: 385px; padding: 10px 25px 20px;}
+    #linkedin {left: 18px; position: relative; top: -380px;}
+	.submit_profile { margin: 9px 3px; width: 32%;}
+	.right_bar { margin: 8px 0 8px 16px;  width: 97%;}
+	.social_buttons { width: 34%; padding: 10px 144px;  transition: all 600ms ease-in-out 0s;}
+	.right_bar_1 { margin: 8px 0 8px 16px;  width: 96%;}
+	.footer_text {  margin-left: 25%;}
+	.footer_copyright { left: 34%;}
+	
+   
+    /* login end */
+	
+	/*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 48%; width: 115px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 15px;width: 115px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: fixed; width: 23%; background:none;}
+	.dashpro_left_box {margin-left:0; width: 59%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 10px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 69%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+    
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	/*FAQ page {Sandeep} 15feb*/
+	.ui-tabs .ui-tabs-nav li a {  padding: 7px 9px !important;}
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {  font-size: 11px !important;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {font-size: 11px !important;} 
+	.ui-accordion .ui-accordion-content {  font-size: 11px !important;} 
+	
+	.faq_main_inner {  width: 100%;}
+	.faq_main_inner_content { margin-left: 3%; width: 89%;}
+	.faq_title { text-align: center;}
+	.faq_box { width:100%;}
+	.priv_text { font-size: 12px; line-height:20px;}
+	.top_menu_outer { display:none;}
+	.top_menu_outer_logout { display:block !important;}
+	
+	
+	/*FAQ page end {Sandeep}  15feb*/
+	.copyright {  margin-top: -41px;  width: 95%;}
+	/*Brows Jobs page Start (sandeep)*/
+	.dashjobs_right { margin: -8px 19px 20px;  width: 82%;}
+	#accordion .head .company_img { width: 15%;}
+	#accordion .head .company_info { margin-left: 3px;  width: 84%;}
+	.company_title {  font-size: 13px; }
+	.company_detail { font-size: 11px;}
+	.company_skills {font-size: 10px; line-height: 14px;}
+	.jobs_row_section2_title_blue { font-size: 11px;}
+	.job_profile { font-size: 11px;}
+	.job_salary { font-size: 12px;  margin-bottom: 5px;  margin-top: 5px;}
+	.job_info { font-size: 9px;}
+	.jobs_row_section2_title { font-size: 11px; margin-left: -6px;}
+	.jobs_row_section2_inner_right2_title {font-size: 12px; margin-left: 5px;}
+	.founder_text { font-size: 11px;}
+	.jobs_row_section2_info { font-size: 11px;  line-height: 19px; }
+	
+/*Brows Jobs page end (sandeep)*/
+    
+}
+/* 568*600 screens start  */ 
+@media only screen and (min-width : 568px) and (max-width : 599px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 89%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 3px; width: 30%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 14px;  padding: 60px 20px 5px; width: 76%;}
+    .text_bar {font-size: 12px; line-height: 18px; padding-bottom: 5px; padding-top: 5px; top: 50%; width: 83%;} 
+    .text_bar em{font-size:22px;}
+    .request_button{right: 34%; top: 84%; width: 30%;}   
+    .subMenu .inner{left: 25%;  top: 80%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}   
+    .subNavBtn_right{font-size:9px;height: auto;}
+    .nav_right{width: 30%;top: 7px;}
+    .nav_right .login_icon{overflow: hidden; height:18px; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:25px;}
+    .s1{min-height:70px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding: 30px 10px 15px 20px;width: 91%;}
+    .white_col_left{padding-top: 10px; width:66%;}
+    .white_col_right{width: 27%;float: right;}
+    .white_col_right .icon_img{float: right;width: 100%;}
+    /*.icon_img img{width:auto;}*/
+    .s12_grey_text{font-size: 27px;}
+    
+    
+    .s2{min-height: 1000px;}
+    #main_outer .inner { width: 89%;}
+    .inner_comp{left: 22% !important;top: 92% !important;} 
+    .subNavBtn_Companies{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}  
+    .subNavBtn_right_companies{font-size:9px;height: auto;}
+    .nav_right_comp{width: 37%;top: 7px;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .comp_box_main{margin: 15px 0 0;}
+    .comp_box{margin: 4px 2% 7%;width: 97%;}
+    .c_logo_outer{height: 75px; width: 19%;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 14px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 20px;font-size: 14px;}
+    .c_option{font-size:12px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:94%;bottom: -48%;}
+    .white_col_left h1.title{font-size:20px;}
+    .white_col_left .title_info{line-height: 16px;font-size: 12px;}
+    .grey_col_right h1.title{font-size:20px;}
+    .grey_col_right .title_info{line-height: 16px;font-size: 12px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px; width:91%; padding-top:40px;}
+    .mid_text_dark_s10_small{font-size:18px;width:94%;}
+    .s9_1_white_content_wrapper_main{margin: 40px 0;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 14px;}
+    .graytop_text_outer{font-size: 12px;line-height: 17px;}
+    .arrow_blue{right: -22%; width:22%;}
+    .gray_box_small_outer{width: 95%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    .wrap .s4{min-height: 145px;}
+    .grey_col_left{width: 27%;}
+    .grey_col_left .icon_img{width: 100%;}
+    .grey_col_right{width:64%;}
+    .wrap .s7{min-height: 150px;}
+    .wrap .s6{min-height: 140px;}
+    .wrap .s8{min-height: 145px;}
+    .wrap .s12{min-height: 875px;}
+    .wrap .s16{min-height:375px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%; text-align:center;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    .s15_gray_head{font-size: 20px;line-height: 26px;}
+    .s15_img_main_outer{margin-left: 5%;width: 43%;}
+    .s13_1{min-height:65px;}
+    .s9_1{min-height:320px;}
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .wrap .s10{min-height: 305px;}
+    
+    .company_mid_text{ font-size: 14px; padding: 70px 20px 5px; width: 76%;}
+    .company_text_bar {font-size: 12px; line-height: 18px; padding-bottom: 5px;padding-top: 5px;top: 54%;width: 83%;}
+    .company_text_bar em{font-size: 22px;}
+    .request_button{right: 34%; top: 84%; width: 30%;} 
+    .hire_butn {right: 40%; top: 83%; width: 18%;}
+    .comp_white_col_left {padding-top: 0; width: 74%;}
+    .comp_talent_heading {font-size: 18px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title {font-size: 16px; margin: 0 0 5px;}
+    .comp_white_col_left .title_info{font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_talent_heading {font-size: 18px; margin: 0 0 5px;}
+    .comp_white_col_right {margin: 0; width: 26%;}
+    .icon_img img { margin-top: 18%;width: 100%;}
+    .comp_s4 {min-height: 270px;}
+    .comp_risk_heading {font-size: 20px;margin: 0 0 5px;}
+    .comp_grey_col_left {float: left; width: 30%;}
+    .comp_grey_col_right {margin-top: 0; width: 68%;}
+    
+    .comp_grey_col_right h1.title { font-size: 16px; margin: 0 0 5px;}
+    .comp_grey_col_right .title_info {font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_s5 {min-height: 220px;}
+    .popup_last {left: 28%; position: relative; top:17%}
+    .hire_2 { padding: 0; width: 10%;}
+    .comp_s13_1 {min-height: 65px;}
+    
+    #footer_wrapper{width:100%;}
+    .footer_icon_outer_fb{width:25px;}
+    .footer_logo a{background:none;height: auto;width: 27%;margin-top: 14px;}
+    .footer_logo a:hover{background:none;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 4976px;}
+    .red_butt{margin-right:10px;}
+    
+    /* login start*/
+    #main_outer {overflow: hidden;}
+    .banner {width: 98%;}
+    .logo_outer { padding: 5px; width: 40%;}
+    .login_main_inner {width: 100%;} 
+    .main_form_inner{width: 463px;}
+    .head_text_large{width: 97%; margin-left: 4%;}
+    .head_text_Register {float: left; margin-left: 4%; top: 42%; width: 97%; position: absolute;}
+    .login_box {margin-left: 4%; width: 82%;}
+    .register_box {float: left;margin-left: 4%; margin-top: 3%; width: 82%;}
+    .textarea{width: 96%;}
+    #popup_box1 {left: 8%; top: 12%; width: 385px; padding: 10px 25px 20px;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 4976px;}
+    .red_butt{margin-right:10px;}
+     #linkedin {left: 18px; position: relative; top: -370px;}
+    .submit_profile span {right: -35%;}
+    .submit_profile img{width: 40%;}
+    .submit_profile span img {width:80%;}
+    .submit_profile p{font-size: 13px;}
+	
+	.submit_profile { margin: 9px 3px; width: 32%;}
+	.right_bar { margin: 8px 0 8px 16px;  width: 97%;}
+	.social_buttons {  padding: 10px 187px; transition: all 600ms ease-in-out 0s;width: 28%;}
+	.right_bar_1 { margin: 8px 0 8px 16px;  width: 97%;}
+	.footer_text {  margin-left: 30%;}
+	.footer_copyright { left: 38%;}
+    
+	
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+    
+    /* login end */
+	
+	/*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 48%; width: 100px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 25px;width: 100px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+	/*FAQ page {Sandeep} 15feb*/
+	.ui-tabs .ui-tabs-nav li a {  padding: 7px 9px !important;}
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {  font-size: 11px !important;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {font-size: 11px !important;} 
+	.ui-accordion .ui-accordion-content {  font-size: 11px !important;} 
+	
+	
+	.faq_main_inner {  width: 100%;}
+	.faq_main_inner_content { margin-left: 2%; width: 92%;}
+	.faq_title { text-align: center;}
+	.faq_box { width:100%;}
+	.priv_text { font-size: 12px; line-height:20px;}
+	.top_menu_outer { display: none;}
+	.top_menu_outer_logout { display:block !important;}
+	
+	
+	/*FAQ page end {Sandeep}  15feb*/
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: fixed; width: 23%; background:none;}
+	.dashpro_left_box {margin-left:0; width: 59%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 10px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 69%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    
+	
+	/*Profile page end {SAhil} 13feb*/
+	.copyright { margin-top: -45px;  width: 98%;}
+	
+		/*FAQ page end {Sandeep}  15feb*/
+	.copyright {  margin-top: -41px;  width: 95%;}
+	/*Brows Jobs page Start (sandeep)*/
+	.dashjobs_right { margin: -8px 19px 20px;  width: 82%;}
+	#accordion .head .company_img { width: 15%;}
+	#accordion .head .company_info { margin-left: 3px;  width: 84%;}
+	.company_title {  font-size: 13px; }
+	.company_detail { font-size: 11px;}
+	.company_skills {font-size: 10px; line-height: 14px;}
+	.jobs_row_section2_title_blue { font-size: 11px;}
+	.job_profile { font-size: 11px;}
+	.job_salary { font-size: 12px;  margin-bottom: 5px;  margin-top: 5px;}
+	.job_info { font-size: 9px;}
+	.jobs_row_section2_title { font-size: 11px; margin-left: -6px;}
+	.jobs_row_section2_inner_right2_title {font-size: 12px; margin-left: 5px;}
+	.founder_text { font-size: 11px;}
+	.jobs_row_section2_info { font-size: 11px;  line-height: 19px; }
+	
+/*Brows Jobs page end (sandeep)*/
+
+    
+        
+   
+    
+}
+/* 384*600 screens start Android (Nexus 4) portrait */ 
+@media only screen and (min-width : 384px) and (max-width : 479px)
+{
+   img{max-width:100%;}
+    #main_outer .inner { width: 89%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 3px; width: 30%;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right: 16%;top: 86%;}   
+    .subMenu .inner{left: 15%;top: 92%;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}   
+    .subNavBtn_right{font-size:9px;height: auto;}
+    .nav_right{width: 37%;top: 7px;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:25px;}
+    .s1{min-height:70px;}
+    .img_logo3 img{width:100%;}
+    .mid_text_dark{padding: 30px 10px 15px 20px;width: 91%;}
+    .white_col_left{padding-top: 10px; width:66%;}
+    .white_col_right{width: 27%;float: right;}
+    .white_col_right .icon_img{float: right;width: 100%;}
+    /*.icon_img img{width:auto;}*/
+  .s12_grey_text{font-size: 27px;}
+    
+    
+    .s2{min-height: 1000px;}
+    #main_outer .inner { width: 89%;}
+    .inner_comp{left: 22% !important;top: 92% !important;} 
+    .subNavBtn_Companies{font-size:9px;margin: 0 1% 0 0; padding-top: 2px;height: auto;}  
+    .subNavBtn_right_companies{font-size:9px;height: auto;}
+    .nav_right_comp{width: 37%;top: 7px;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;left: -6px;width:0px;}
+    .comp_box_main{margin: 15px 0 0;}
+    .comp_box{margin: 4px 2% 7%;width: 97%;}
+    .c_logo_outer{height:79px;width: 25%;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 14px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 20px;font-size: 14px;}
+    .c_option{font-size:12px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:94%;bottom: -48%;}
+    .white_col_left h1.title{font-size:20px;}
+    .white_col_left .title_info{line-height: 16px;font-size: 12px;}
+    .grey_col_right h1.title{font-size:20px;}
+    .grey_col_right .title_info{line-height: 16px;font-size: 12px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px; width:91%; padding-top:40px;}
+    .mid_text_dark_s10_small{font-size:18px;width:94%;}
+    .s9_1_white_content_wrapper_main{margin: 40px 0;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 14px;}
+    .graytop_text_outer{font-size: 12px;line-height: 17px;}
+    .arrow_blue{right: -22%; width:22%;}
+    .gray_box_small_outer{width: 95%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    .wrap .s4{min-height: 145px;}
+    .grey_col_left{width: 27%;}
+    .grey_col_left .icon_img{width: 100%;}
+    .grey_col_right{width:64%;}
+    .wrap .s7{min-height: 150px;}
+    .wrap .s6{min-height: 140px;}
+    .wrap .s8{min-height: 145px;}
+    .wrap .s12{min-height: 875px;}
+    .wrap .s16{min-height:375px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%; text-align:center;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    .s15_gray_head{font-size: 20px;line-height: 26px;}
+    .s15_img_main_outer{margin-left: 5%;width: 43%;}
+    .s13_1{min-height:65px;}
+    .s9_1{min-height:320px;}
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .wrap .s10{min-height: 305px;}
+    
+    .company_mid_text{ font-size: 25px;padding-left: 20px;  padding-right: 20px;width: 76%; padding-top: 90px;}
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 53%; width: 83%;}  
+    .hire_butn {right: 2%;top: 83%;}
+    .comp_white_col_left {padding-top: 0; width: 74%;}
+    .comp_talent_heading {font-size: 18px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title {font-size: 16px; margin: 0 0 5px;}
+    .comp_white_col_left .title_info{font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_talent_heading {font-size: 18px; margin: 0 0 5px;}
+    .comp_white_col_right {margin: 0; width: 26%;}
+    .icon_img img { margin-top: 18%;width: 100%;}
+    .comp_s4 {min-height: 270px;}
+    .comp_risk_heading {font-size: 20px;margin: 0 0 5px;}
+    .comp_grey_col_left {float: left; width: 30%;}
+    .comp_grey_col_right {margin-top: 0; width: 68%;}
+    
+    .comp_grey_col_right h1.title { font-size: 16px; margin: 0 0 5px;}
+    .comp_grey_col_right .title_info {font-size: 12px;line-height: 16px;margin-bottom: 10px;}
+    .comp_s5 {min-height: 220px;}
+    .popup_last {left: 28%; position: relative; top:17%}
+    .hire_2 { padding: 0; width: 10%;}
+    .comp_s13_1 {min-height: 65px;}
+    
+    #footer_wrapper{width:100%;}
+    .footer_icon_outer_fb{width:25px;}
+    .footer_logo a{background:none;height: auto;width: 27%;margin-top: 14px;}
+    .footer_logo a:hover{background:none;}
+    #popup_box{left: 1%;top: 5%;width: 76%;}
+    .popup_container { height: 4976px;}
+    .red_butt{margin-right:10px;}
+        
+     #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+        
+     /* login start */
+  /*  .login_top_section .submit_profile:first-child{padding-top: 0;}
+     .login_top_section .submit_profile{padding-top: 0; padding-bottom: 0;}
+     .login_top_section .submit_profile p{font-size: 14px;}
+     .login_top_section .submit_profile span {right: 0; top: 7%;}
+     .login_top_section .submit_profile span img{width: 60%;}*/
+	 .submit_profile span {right: -35%;}
+    .submit_profile img{width: 17%;}
+    .submit_profile span img {width:80%;}
+    .submit_profile p{font-size: 15px;}
+	
+	.submit_profile { margin: 9px 3px; width: 100%;}
+	.right_bar { margin: 8px 0 8px 16px;  width: 97%;}
+	.social_buttons {  padding: 10px 117px; transition: all 600ms ease-in-out 0s;   width: 33%;}
+	.right_bar_1 { margin: 8px 0 8px 16px;  width: 97%;}
+	.footer_text {  margin-left: 23%;}
+	.footer_copyright { left: 33%;}	
+	.logo_outer {width: 100%;	}
+        
+     /* login end */
+	 
+	 
+	 /*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 92%; width: 75px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 130px;width: 75px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/ 
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: relative !important; width: 100%; background:none;}
+	.dashpro_left_box {margin-left: 2%; width: 29%;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 12px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 100%;}
+	#navigation {margin-bottom: 20px;width: 86%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    .dashpro_right_form { float: left; margin-left: 10%; width: 84%;}
+	
+	/*Profile page end {SAhil} 13feb*/
+    
+}
+/* 600*600 screens start Android (Nexus 4) landscape */ 
+@media only screen and (min-width : 600px) and (max-width : 600px)
+{
+    .inner { width: 98%;}
+    
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	#top_wrapper { width: 100%;}
+	 .submit_profile span {right: -35%;}
+    .submit_profile img{width: 28%;}
+    .submit_profile span img {width:80%;}
+    .submit_profile p{font-size: 13px;}
+	
+	.submit_profile { margin: 9px -2px;    width: 33%;}
+	.right_bar { margin: 8px 2% 8px 11%;    width: 88%;}
+	.social_buttons {   padding: 10px 155px; transition: all 600ms ease-in-out 0s;   width: 33%;}
+	.right_bar_1 { margin: 8px 2% 8px 11%;    width: 88%;}
+	.footer_text {  margin-left: 5%;}
+	.footer_copyright { left: 33%;}	
+	.logo_outer {width: 100%;	}
+	.left_bar { width: 100%;}
+	.border_center { height: 1px;  margin-left: 4%;  margin-right: 4%; margin-top: 3%;  width: 93%; border-top: 1px solid #E5E5E5;}
+	.main_wrapper_inner {   width: 100%;}
+	
+	/*FAQ page {Sandeep} 15feb*/
+	
+	.ui-tabs .ui-tabs-nav li a {  padding: 7px 9px !important;}
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {  font-size: 11px !important;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {font-size: 11px !important;} 
+	.ui-accordion .ui-accordion-content {  font-size: 11px !important;} 
+	
+	.wrap_color { min-height: 698px; }
+	.faq_main_inner {  width: 100%;}
+	.faq_main_inner_content { margin-left: 2%; width: 92%;}
+	.faq_title { text-align: center;}
+	.faq_box { width:100%;}
+	.priv_text { font-size: 13px; line-height:21px;}
+	.top_menu_outer { display: none;} 
+	.top_menu_outer_logout { display:block !important;}
+	
+	/*FAQ page end {Sandeep}  15feb*/
+	
+	/*Profile page start {SAhil} 13feb*/
+	.top_menu_outer {margin: 9px 8px 7px 5px;}
+	.dashprofile_main_inner { width: 100%;}
+	.dashprofile_text {padding: 20px 30px 0;width: 81%;}
+	.dashprofile_content_inner {width: 100%;}
+	.dashpro_left {position: fixed; width: 23%; background:none;}
+	.dashpro_left_box {margin-left:0; width: 80% ;}
+	.dashpro_left_box_main {margin: 0;width: 100%;}
+	.dashpro_title {font-size: 10px;}
+	.dashpro_edit {margin-right: 0px; width: 20%; }
+	
+	
+	.dashpro_right { margin: 10px 0 10px 10px; width: 69%;}
+	#navigation {margin-bottom: 20px;width: 93%; margin-right:10px;}	
+	#navigation ul {padding-left: 0; margin-left:10px;}
+	#navigation ul li a{height:25px;}
+	.contact_icon{ background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -2px ; width: 42px;}
+	.contact_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll 0 -30px ; width:42px;}
+	#navigation ul li.selected a.contact_icon{background:url(../images/form_sprites_iphone.html) no-repeat 0 -30px;}
+	.edu_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -41px -2px; width: 58px;}
+	.edu_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat scroll -41px -30px;}
+	#navigation ul li.selected a.edu_icon{background:url(../images/form_sprites_iphone.html) no-repeat -41px -30px; }
+	.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -4px ; width: 52px;}
+	.portfolio_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;width: 52px;}
+	#navigation ul li.selected a.portfolio_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -100px -32px;}
+	.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -5px ;width: 56px;}
+	.skills_icon:hover{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	#navigation ul li.selected a.skills_icon{background: url(../images/form_sprites_iphone.html) no-repeat scroll -153px -33px ;}
+	.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -4px; width:53px;}
+	.qa_icon:hover{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; width:53px;}
+	#navigation ul li.selected a.qa_icon{background:url(../images/form_sprites_iphone.html) no-repeat -209px -32px; }
+	#form_slide {width: auto;}
+	.head_text_large {font-size: 24px;}
+	.step {width:283px;}
+	.step1 {width: 91%; margin-bottom:10px;} 
+	.testimonials_first {line-height: 19px;left:10px; width:90%; top: 100%; font-size: 12px;}
+	.step2 {width: 91%; margin-left:5px;}
+	.gray_outer {width: 92%;}
+	.textarea_w {width: 92%;}
+	.row_outer {margin-bottom: 20px;}
+	.inner_left {width: 97%;}
+	.inner_right {width: 95%;}
+	input[type="radio"] + label{background:url(../images/chk_small.html) no-repeat;height: 24px;width: 29px; border:none;}
+	input[type="radio"]:checked + label{ background:url(../images/chk_active_small.html) no-repeat; height: 24px;width: 29px;}
+	.lable_text{ font-size:12px;}
+	.textarea_skill{font-size:12px; padding:5px;}
+	.skill_text_outer {font-size: 10px;padding: 5px 6px;width: auto; border: none;}
+	.skill_text_outer1 {font-size: 10px;padding: 5px 7px;width: auto; border: none;}
+	.skill_text_outer2 {font-size: 10px;padding: 5px 0px;width: auto; border: none;}
+	.skill_text_outer3 {font-size: 10px;padding: 5px 7px;width: 17px; border: none;}
+	.skill_text_outer4 {font-size: 10px;padding: 5px 13px;width: auto; border: none;}
+	.skill_top_head_top { width: 99%;}
+	.skill_row_outer {padding-bottom: 5px;padding-top: 5px;	}
+	.skill_left_outer {position: relative;top: 27px;}
+	.profile_cancel1{ margin:-63px 4px;}
+	.add_outer {font-size: 10px;}
+	.skill_top_head_top {border: none; width: 91%;}
+	.skill_top_head {position: relative; right: 22px;top: -36px; width: 83%; border:none;}
+	.step5 {margin-left: 10px; width:90%;}
+	.portfolio_social_buttons_outr {width: 100%;}
+	.portfolio_social_buttons {padding: 10px 25px;}
+	.profile_cancel { margin: 0px -7px;}
+	.add_outer_neww {font-size: 10px;}
+	#popup_box1 {left: 2%; margin-left: 15px;padding: 6px; position: fixed; top: 25%; width: 82%; z-index: 100;}
+	.git_textarea { margin-left:2px;}
+	.step6 {margin-left: 18px; width:91%;}
+	.step6_last {margin-left: 22px; width:87%;}
+	.btn{ padding-left:0; padding-right:0; font-size:12px;}
+	.video_code {float: left; width: 100%;}
+	.video_code #widget { height: 170px !important; width: 240px !important;}
+	.video_right { float: left; text-align: center; width: 98%;}
+	.submit_butt{ font-size:16px;}
+    .dashpro_right_form { float: left; width: 75%;}
+	
+	/*Profile page end {SAhil} 13feb*/
+	
+		/*FAQ page end {Sandeep}  15feb*/
+	.copyright {  margin-top: -41px;  width: 95%;}
+	/*Brows Jobs page Start (sandeep)*/
+	.dashjobs_right {  margin: -8px 9px 20px;  width: 80%;  }
+	#accordion .head .company_img { width: 15%;}
+	#accordion .head .company_info { margin-left: 3px;  width: 84%;}
+	.company_title {  font-size: 13px; }
+	.company_detail { font-size: 11px;}
+	.company_skills {font-size: 10px; line-height: 14px;}
+	.jobs_row_section2_title_blue { font-size: 11px;}
+	.job_profile { font-size: 11px;}
+	.job_salary { font-size: 12px;  margin-bottom: 5px;  margin-top: 5px;}
+	.job_info { font-size: 9px;}
+	.jobs_row_section2_title { font-size: 11px; margin-left: -6px;}
+	.jobs_row_section2_inner_right2_title {font-size: 12px; margin-left: 5px;}
+	.founder_text { font-size: 11px;}
+	.jobs_row_section2_info { font-size: 11px;  line-height: 19px; }
+	
+/*Brows Jobs page end (sandeep)*/
+}
+/* 240*320 screens start Crappy Android portrait */ 
+@media only screen and (min-width : 240px) and (max-width : 319px)
+{
+    img{max-width:100%;}
+    #main_outer .inner { width: 95%;}
+    .wrap{float:left; min-width:100%;}
+    .subMenu{min-width:100%;}
+    #fadeIn .top_header_outr {float: left;width: 100% !important;}
+    .logo {margin-left: 5px; margin-top: 8px; width: 20;}
+    .logo.logo_link img {width: 100%;}
+    .top_header_outr{width:100% !important;}
+    .mid_text { font-size: 30px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .text_bar {font-size: 18px; line-height: 25px;top: 390px; width: 92%;}   
+    .text_bar em{font-size:22px;}
+    .request_button{right:28%; top:590px;}   
+    .subMenu .inner{left:150px;top:0px;}  
+    .subNavBtn{font-size:9px;margin: 0 1% 0 0;}   
+    .subNavBtn_right{font-size:9px;}
+    .nav_right .login_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px; height:18px;}
+    .nav_right .login_icon:hover{padding-left: 33px;}
+    .white_wrapper{font-size:36px;}
+    .s1{min-height:100px;}
+    .img_logo3 img{width:100%;}
+    
+    .s2{min-height:385px;}
+    .comp_box{margin:4px 2% 2%;width: 29%;}
+    .c_logo_outer{height:50px;}
+    .c_name{width: 46%;letter-spacing: 1px;margin-top: 25px;font-size: 12px;}
+    .c_discr{padding: 5px 2px 10px;line-height: 15px;font-size: 11px;}
+    .c_option{font-size:9px;padding: 3px;}
+    .c_option span{padding-left:0px;}
+    .text_bar1{font-size:18px;width:97%;}
+    .white_col_left h1.title{font-size:26px;}
+    .white_col_left .title_info{line-height: 26px;font-size: 14px;}
+    .grey_col_right h1.title{font-size:26px;}
+    .grey_col_right .title_info{line-height: 26px;font-size: 14px;}
+    .mid_text_dark_s10{margin-bottom:40px;font-size:35px;}
+    .mid_text_dark_s10_small{font-size:18px;width:97%;}
+    .s9_1_white_content_wrapper_main{margin: 70px 0 40px;}
+    .gray_box_small_s15{margin:0 5% 0 0;}
+    .margin_free{margin:0px;}
+    .wr_icon_outer{padding-left: 24px; width: 62%;margin-left:0px;}
+    .name_head{font-size: 18px;}
+    .graytop_text_outer{font-size: 13px;line-height: 17px;}
+    .arrow_blue{right: -22%;}
+    .gray_box_small_outer{width: 30%;margin: 0 0 0 15px;}
+    .image_name{font-size: 35px;}
+    .white_box_outer{width:88%;}
+    .white_box_outer .top_text_outer{font-size: 14px; line-height: 22px;}
+    .image_name1{font-size:35px;}
+    
+    .s16{min-height:300px;}
+    .s15_img_outer{margin-left: 20%;}
+    .s15_text{border:none;border-top: 1px solid #999999;width:70%;}
+    .s15_small_text{font-size:11px;}
+    .s15_head{letter-spacing:1px;font-size: 12px;}
+    
+    .s13{min-height: 68px;padding-top: 20px;}
+    .btn-red{padding:0px;}
+    .s13_1{min-height:100px;}
+    
+    #footer_wrapper{width:100%;}
+    
+    
+    /* companies page start */
+    .inner_comp{left:130px !important;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .nav_right_comp .hire_icon:hover{padding-left: 33px;}
+    .subNavBtn_right_companies{font-size:9px;}
+    .company_mid_text { font-size: 30px; padding-left: 20px;  padding-right: 20px;  width: 88%; }
+    .company_text_bar {font-size: 18px; line-height: 25px;top: 390px; width: 92%;}  
+    .nav_right_comp{width:27%;}
+    .nav_right_comp .hire_icon{overflow: hidden; padding-left: 33px; padding-right: 0;right: 7px;width:0px;}
+    .hire_butn{right:21%;}
+    .mid_text_dark_s9_small{font-size:18px;width:97%;}
+    .mid_text_dark_s9{padding: 35px 10px 15px 20px;}
+    .s3{min-height: 245px; padding:0px;}
+    .comp_s4{min-height:245px;}
+    .comp_white_col_left{padding-top:0px;}
+    .comp_talent_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_white_col_left h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_white_col_left .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_white_col_right{margin:0px;}
+    .comp_white_col_right .icon_img{margin-top: 8px;}
+    .comp_risk_heading{font-size: 26px;margin: 0 0 5px;}
+    .comp_grey_col_right h1.title{margin: 0 0 5px;font-size: 18px;}
+    .comp_grey_col_right .title_info{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .comp_s5{min-height:255px;}
+    .comp_s6{min-height:265px;}
+    .comp_grey_col_left .icon_img{margin-top: 15px;}
+    .comp_grey_col_right{margin-top: 0;}
+    .comp_s7{min-height:240px;}
+    .s10{min-height: 240px; padding:0px;}
+    .hire_2{padding:0px;margin-top: 10px;}
+    .popup_last{left: 37%;position: relative;}
+    
+    #popup_box{left: 2%;top: 14%;width: 81%;}
+    .popup_container{height: 3909px;}
+    .comp_s13_1{min-height:100px;}
+        
+        
+    #habla_beta_container_do_not_rely_on_div_classes_or_names #habla_window_div{display:none !important;}
+	
+	/*about page start {SAhil} 12feb*/
+	#about_slider {height: 280px;padding-bottom: 5px;width: 100%;}
+	.slide{width: 100% !important;}
+	.light-green{padding: 10px 15px 20px; font-size: 27px;}
+	.white_content_wrapper_p {width: 92%;}
+	.page5_white_content_wrapper_main { margin: 15px 0; width: 100%;}
+	.about_text_outer {font-size: 17px;line-height: 23px;padding-bottom: 8px;width: 100%;}
+	.gray_content_wrapper {margin: 0 auto;width: 98%;}
+	.founder_main {float: left;padding-left: 2%;width: 28%;}
+	.founder_img_outer { margin-right: 10px; margin-top: 92%; width: 75px;}
+	.founder_img_outer1 {margin-right: 10px;margin-top: 130px;width: 75px;	}
+	.founder_text_outer h1 { font-size: 14px; margin-bottom: 5px;}
+	.founder_text_outer .small_text { font-size: 10px; line-height: 14px; width: 100%;}
+	.founder_text_outer .small_text1 { font-size: 12px; line-height: 18px; margin-bottom: 15px; margin-top: 15px; width: 100%;}
+	.founder_text_outer .small_text1 span { font-size: 18px; margin-left: 5px;}
+    
+	/*about page end {SAhil} 12feb*/
+
+}

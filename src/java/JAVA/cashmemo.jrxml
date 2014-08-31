@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3357a791-89b9-408b-a90f-90b47ac81a38">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<field name="DistName" class="java.lang.String"/>
+	<field name="Equipment" class="java.lang.String"/>
+	<field name="Price" class="java.lang.String"/>
+	<field name="cid" class="java.lang.String"/>
+	<field name="ConsumerName" class="java.lang.String"/>
+	<field name="Address" class="java.lang.String"/>
+	<field name="contact" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="235" y="59" width="100" height="20" uuid="41d9501e-8a0d-4b04-9bf9-5e2529211826"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CASH MEMO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="6" width="86" height="20" forecolor="#FF3300" uuid="a52bfb1d-2e93-4d4b-9044-9df2f7d86c3a"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Distributor : ]]></text>
+			</staticText>
+			<image>
+				<reportElement x="1" y="3" width="197" height="50" uuid="a80c0c7c-f503-4400-a4eb-57f9396ac577"/>
+				<imageExpression><![CDATA["C:\\Users\\Naushad Ahmad\\Desktop\\fLogo.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="356" y="3" width="199" height="30" uuid="2b79840e-ef28-498d-931b-faa19cefcc16"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DistName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="436" y="33" width="119" height="26" forecolor="#0000FF" uuid="085e20f1-3a9c-4b00-8ab7-ff77842f2f15"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[For Refill Booking ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="59" width="229" height="20" forecolor="#0000FF" uuid="ceeae0e5-2d35-4020-9de5-1116be96ae55"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Mechanic and Emergency Services]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="161" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="9" width="68" height="20" uuid="58db5686-eec4-4585-84bd-e0abaa4c7845"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Cost of : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="119" y="9" width="160" height="20" uuid="79d752a6-c726-4e0e-a13c-7d598f1b1037"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Equipment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="311" y="9" width="125" height="32" uuid="8545c273-cc1e-40cd-97a7-32149e1cadfe"/>
+				<textElement>
+					<font size="16" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Price}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="41" width="89" height="20" uuid="3e7ca055-4d2b-460f-aeee-e29c5b56f81c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Consumer No]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="119" y="41" width="160" height="20" uuid="19bce2f8-8923-47a1-9e20-4da92a639e3e"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cid}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="74" width="106" height="29" uuid="68dcbc23-9dcb-4d18-a864-52d59240a80b"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Consumer Name]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="119" y="74" width="317" height="29" uuid="2384b3ed-c058-4fe0-a72d-2e17cf82dda4"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ConsumerName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="114" width="100" height="20" uuid="2c21cb54-bbe6-4386-abc2-fe2b1d7bdb4c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="119" y="114" width="436" height="20" uuid="8a4fef33-145f-479e-9999-519fc7d35916"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Address}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="198" y="21" width="168" height="20" uuid="8228c517-e329-40d2-9606-a4d57b660233"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="34" width="69" height="20" uuid="26b02de8-69e1-4a31-8a74-cd3cc8671aef"/>
+				<text><![CDATA[Help Line No : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="89" y="34" width="146" height="20" uuid="fd67ce51-0dab-4936-81df-a4f18541d3da"/>
+				<textFieldExpression><![CDATA[$F{contact}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
